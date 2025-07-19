@@ -1,2 +1,3 @@
 # Portfolio_Two
-A simple portfolio
+
+That's my second prject in web development using HTML & CSS
