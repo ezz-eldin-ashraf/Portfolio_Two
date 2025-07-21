@@ -219,10 +219,10 @@ header nav .form {
 }
 @media screen and (orientation: landscape) and (max-height: 500px) {
   .landing .text-part {
-    height: 50vh;
+    height: 40vh;
     top: 60%;
-    width: 80%;
-    padding: 30px 20px 20px 10%;
+    width: 70%;
+    padding: 30px 10px 0px 5%;
   }
 }
 .landing .text-part .content {
@@ -245,6 +245,14 @@ header nav .form {
   font-size: 13px;
   margin-top: 20px;
   font-weight: 600;
+}
+@media screen and (orientation: landscape) and (max-height: 500px) {
+  .landing .text-part .content h2 {
+    font-size: 18px;
+  }
+  .landing .text-part .content p {
+    font-size: 10px;
+  }
 }
 @media (max-width: 767px) {
   .landing .text-part {
