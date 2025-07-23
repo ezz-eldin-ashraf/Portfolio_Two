@@ -493,6 +493,7 @@ header nav .form {
   bottom: -100%;
   left: 0;
   width: 100%;
+  /* height: 40%; */
   background-color: white;
   padding: 30px;
   font-weight: 500;
@@ -588,5 +589,150 @@ header nav .form {
   }
 }
 /* end statistics */
+
+/* start skills */
+.skills {
+}
+.skills .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 50px;
+  margin-top: 0;
+}
+.skills .container .heading-part h2 {
+  font-size: 25px;
+}
+.skills .container .heading-part h2::before {
+  display: none;
+}
+.skills .container .heading-part h2::after {
+  display: none;
+}
+.skills .testimonials {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills .testimonials .test-card {
+  display: flex;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+@media (max-width: 767px) {
+  .skills .testimonials .test-card {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.skills .testimonials .test-card img {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+.skills .testimonials .test-card .text {
+  position: relative;
+  padding-top: 10px;
+  width: 300px;
+  height: 100px;
+  border-bottom: #a9a9a9 solid 1px;
+}
+.skills .testimonials .test-card .text p {
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+.skills .testimonials .test-card .text span {
+  display: block;
+  font-style: italic;
+  color: #a9a9a9;
+  font-size: 12px;
+  text-align: right;
+}
+.skills .testimonials .bullets {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateX(-50%);
+}
+.skills .testimonials .bullets li {
+  border: 1px #a9a9a9 solid;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.skills .testimonials .bullets .active {
+  background-color: var(--main-color);
+  border: none;
+}
+
+.skills .our-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills .our-skills .skill-card {
+  width: 350px;
+  margin-bottom: 20px;
+}
+.skills .our-skills .skill-card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.skills .our-skills .skill-card p span {
+  font-size: 11px;
+  margin-left: 5px;
+}
+.skills .our-skills .skill-card .empty-div {
+  position: relative;
+  width: 100%;
+  height: 25px;
+  background-color: #dbdbdb;
+}
+.skills .our-skills .skill-card .empty-div::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: var(--main-color);
+}
+.skills .our-skills .skill-card:nth-child(2) .empty-div::after {
+  width: 91%;
+}
+.skills .our-skills .skill-card:nth-child(3) .empty-div::after {
+  width: 97%;
+}
+.skills .our-skills .skill-card:nth-child(4) .empty-div::after {
+  width: 80%;
+}
+.skills .our-skills .skill-card:nth-child(5) .empty-div::after {
+  width: 87%;
+}
+/* end skills */
+
+/* start quote */
+.quote {
+  background-image: url(../imgs/slider-bg.jpg);
+  background-size: cover;
+}
+.quote .container {
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  font-weight: 600;
+}
+.quote .container q {
+  font-size: 30px;
+}
+.quote .container span {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+}
+/* end quote */
 /* start footer */
 /* end footer  */
