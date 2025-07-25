@@ -428,6 +428,7 @@ header nav .form {
   transition: 0.5s;
 }
 .portfolio .cards {
+  background-color: #fcfcfc;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -437,6 +438,7 @@ header nav .form {
   width: 25%;
   position: relative;
   overflow: hidden;
+  padding: 2px;
 }
 @media (max-width: 991px) {
   .portfolio .cards .card {
