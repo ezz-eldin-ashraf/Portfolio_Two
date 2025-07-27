@@ -2,5 +2,4 @@
 ### My Lv2 in using HTML & CSS 
 #### A project that represents a simple portfolio page
 
-<p> This project is based on the Kasper theme by Graphberry.
-All modifications, customizations, and additional features were made by Ezz El-din Ashraf. </p>
+<p font-size= "10px" >This project is based on the Kasper theme by Graphberry. </p>
